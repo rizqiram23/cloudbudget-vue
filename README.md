@@ -8,3 +8,4 @@ npm install
 buka git bash/command prompt di folder yang sudah diclone, 
 ketikan git switch NAMA_BRANCH (nama diri sendiri), 
 mulai pengerjaan setelah branch terganti.
+This is for testing purposes
