@@ -54,7 +54,7 @@ export default {
     /* padding: 24px; */
     border: 1px solid transparent;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 0;
     transform: translate(-50%, -188px);
     /* transform: translate(-50%, 300px); */
@@ -86,5 +86,20 @@ a {
     color: rgba(237,76,92,1);
     height: 20px;
     font-size: 14px;
+}
+/* Media Queries */
+@media (max-width: 1120px) {
+    .video-section {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .section-caption {
+        margin: auto;
+        margin-top: 60px;
+    }
+    .video-player {
+        transform: translate(190.5px, -188px);
+    }
 }
 </style>

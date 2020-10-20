@@ -40,6 +40,7 @@ export default {
 .features-section {
     height: 660px;
     background-color: #FAFAFA;
+    flex-wrap: wrap;
 }
 .features-section h1 {
     margin-top: 0;
@@ -50,6 +51,7 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 /* cards styling */
 .feature-card {
