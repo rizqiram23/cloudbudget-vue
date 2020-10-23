@@ -55,14 +55,17 @@ height: 107px;
 }
 
  
-Form{
+form{
   margin-top: 117px;
   text-align: right;
   width: 540px;
   outline: none;
   /* padding: 10px; */
 }
-
+input, select {
+  border: 1px solid rgb(196, 196, 196);
+  font-family: 'Lato', sans-serif;
+}
 .nameData {
   display: flex;
 }
@@ -86,12 +89,14 @@ Form{
 }
 
 #pnumber { 
-margin-bottom: 24px;  
+margin-bottom: 24px; 
+margin-right: 0; 
 width: 540px;
 height: 60px;
 left: 735px;
 top: 3143px;
 border-radius: 4px;
+padding: 0;
 }
 
 #selectService {

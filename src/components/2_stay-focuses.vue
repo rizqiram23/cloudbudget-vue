@@ -12,12 +12,12 @@
        any unnecessary expenses.Simply join today to get started!</p>
 
     <div class="container">
-        <div><img class="logo" src="../assets/play-store.png" alt="" width="50px" height="50px"></div>
-        <!-- <i class="fab fa-google-play"></i> -->
-        <div><img class="logo" src="../assets/app-store.png" alt="" width="50px" height="50px"></div>
-        <!-- <i class="fab fa-app-store-ios"></i> -->
-        <div><img class="logo" src="../assets/windows-logo.png" alt="" width="50px" height="50px"></div>
-        <!-- <i class="fab fa-app-store-ios"></i> -->
+        <!-- <div><img class="logo" src="../assets/play-store.png" alt="" width="50px" height="50px"></div> -->
+        <i class="fab fa-google-play"></i>
+        <!-- <div><img class="logo" src="../assets/app-store.png" alt="" width="50px" height="50px"></div> -->
+        <i class="fab fa-app-store-ios"></i>
+        <!-- <div><img class="logo" src="../assets/windows-logo.png" alt="" width="50px" height="50px"></div> -->
+        <i class="fab fa-windows"></i>
     </div>
     
     </div>
@@ -32,6 +32,10 @@ export default {
 </script>
 
 <style>
+.fab {
+    font-size: 28px;
+    margin-right: 28px;
+}
 .stayFocuses {
     background-color: rgba(237, 76, 92, 1);
     display: flex;
@@ -57,6 +61,7 @@ export default {
 .sectionCaption p {
     font-size: 14px;
     height: 64px;
+    line-height: 19.6px;
 }
 
 .container {
