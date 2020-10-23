@@ -52,6 +52,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   padding: 0;
+}
   body {
   margin:0;
 
